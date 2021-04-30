@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1004834641448",
+    "project_id": "rokkhi-door-sensor-flutter",
+    "storage_bucket": "rokkhi-door-sensor-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004834641448:android:e521747808d1590923071d",
+        "android_client_info": {
+          "package_name": "com.example.rokkhi_door_sensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004834641448-03rv9oi57jmq650l6mivl2qrd017pi2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rokkhi_door_sensor",
+            "certificate_hash": "dd42c7f4850c2f3d556875c1a1b9ba3c5751dc8e"
+          }
+        },
+        {
+          "client_id": "1004834641448-vclnvtr55bsmosrpkjj2sutml0b2obks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJsZRIrtFTxFXzYHW-rALy_VcluzoJE64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004834641448-vclnvtr55bsmosrpkjj2sutml0b2obks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
