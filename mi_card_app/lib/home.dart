@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'main.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,12 +7,35 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       home: Scaffold(
-        body: Container(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
           child: Column(
-            children: <Widget>[
-              Image.network('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mona_Lisa-restored.jpg/200px-Mona_Lisa-restored.jpg'),
-            ],
-          ),
+               children: <Widget>[
+
+                 CircleAvatar(backgroundColor: Colors.red,
+                   backgroundImage: NetworkImage("http://www.amazopedia.com/wp-content/uploads/2019/07/62280-mona_lisa-wiki.jpg"),
+                   radius: 50.0,
+                   ),
+                 Text(
+                   "Mona Lisa",
+                   style: TextStyle(
+                     fontSize: 40.0,
+                     fontFamily: 'Pacifico',
+                     color: Colors.white,
+                     fontWeight: FontWeight.bold
+
+                   ),
+                 ),
+                 Text(
+                   "FLUTTER DEVELOPER",
+                   style: TextStyle(
+                       fontFamily: 'Source Sans',
+                       color: Colors.teal.shade100,
+                     fontSize: 20.0,
+                   ),
+                 ),
+               ],
+              ),
         ),
       ),
     );
