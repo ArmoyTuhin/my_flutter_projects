@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007038</color>
+    <color name="colorPrimaryDark">#007050</color>
+    <color name="colorAccent">#ca0c0e</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#F3F3F3</color>
+    <color name="product_card_text_dark">#121B4E</color>
+</resources>
